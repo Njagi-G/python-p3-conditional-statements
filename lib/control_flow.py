@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 # Question 1
-
 def admin_login(username, password):
     # your code here
     pass
@@ -22,7 +21,6 @@ print(admin_login("ADMIN", "12345"))
 
 
 # Question 2
-
 def hows_the_weather(temperature):
     # your code here
     pass
@@ -47,7 +45,6 @@ print(hows_the_weather(75))
 
 
 # Question 3
-
 def fizzbuzz(num):
     # your code here
     pass
@@ -81,7 +78,6 @@ print(fizzbuzz(15))
 
 
 # Question 4
-
 def calculator(operation, num1, num2):
     # your code here
     pass
