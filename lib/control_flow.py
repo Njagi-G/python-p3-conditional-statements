@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # Question 1
+
 def admin_login(username, password):
     # your code here
     pass
@@ -8,6 +9,7 @@ def admin_login(username, password):
         return "Access granted"
     else:
         return "Access denied"
+
 
 admin_login("sudo", "12345")
 print(admin_login("sudo", "12345"))
@@ -18,7 +20,9 @@ print(admin_login("admin", "12345"))
 admin_login("ADMIN", "12345")
 print(admin_login("ADMIN", "12345"))
 
-#Question 2
+
+# Question 2
+
 def hows_the_weather(temperature):
     # your code here
     pass
@@ -31,6 +35,7 @@ def hows_the_weather(temperature):
     else:
         return "It's perfect out there!"
 
+
 hows_the_weather(33)
 print(hows_the_weather(33))
 
@@ -40,6 +45,8 @@ print(hows_the_weather(99))
 hows_the_weather(75)
 print(hows_the_weather(75))
 
+
+# Question 3
 
 def fizzbuzz(num):
     # your code here
@@ -52,6 +59,7 @@ def fizzbuzz(num):
         return "Fizz"
     else:
         return num
+
 
 fizzbuzz(1)
 print(fizzbuzz(1))
@@ -71,6 +79,9 @@ print(fizzbuzz(5))
 fizzbuzz(15)
 print(fizzbuzz(15))
 
+
+# Question 4
+
 def calculator(operation, num1, num2):
     # your code here
     pass
@@ -86,6 +97,7 @@ def calculator(operation, num1, num2):
         print("Invalid operation!")
         return None
 
+
 calculator("+", 1, 1)
 print(calculator("+", 1, 1))
 
@@ -99,5 +111,5 @@ calculator("/", 4, 2)
 print(calculator("/", 4, 2))
 
 calculator("nope", 4, 2)
-# print(calculator("nope", 4, 2))
+print(calculator("nope", 4, 2))
 
